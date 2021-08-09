@@ -1,0 +1,284 @@
+/* RESET */
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+strong,
+u,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+article,
+aside,
+figure,
+figcaption,
+footer,
+header,
+nav,
+section,
+time,
+audio,
+video{
+border:0;
+font-family: 'Raleway', sans-serif;
+font-size:16px;
+line-height:24px;
+margin:0;
+padding:0;
+vertical-align:baseline;
+box-sizing:border-box;
+}
+html{scroll-behavior:smooth;}
+body{
+background:#fff;
+color:#4d4d4d;
+}
+ol,
+ul,
+li{list-style:none;}
+strong{font-weight:bold;}
+table{
+border-collapse:collapse;
+border-spacing:0;
+width:100%;
+}
+img{width:100%;}
+a,
+a:hover{
+color:#000;
+text-decoration:none;
+cursor:pointer;
+}
+:focus{outline:0;}
+:hover{transition:.3s ease;}
+
+/*CONTEÚDO*/
+.container{
+    width:1136px;
+    margin:0 auto;
+}
+.destaque{
+    margin-top:96px;
+    margin-bottom:96px;
+    display:flex;
+    align-items:center;
+}
+.destaque figure{
+    width:352px;
+}
+.destaque article{
+    width:784px;
+    padding:0 48px;
+}
+.destaque h2{
+    font-size:48px;
+    font-weight:700;
+    line-height:58px;
+    color:#000;
+    margin-bottom:16px;
+}
+.destaque p{
+    width:555px;
+    margin-bottom:20px;
+}
+/*CONHEÇA*/
+.conheca{margin-bottom:96px;}
+.conheca h3{
+    font-size:40px;
+    font-weight:normal;
+    text-align: center;
+    color:#000;
+    margin-bottom:72px;
+}
+.conheca section{
+    display:flex;
+    padding:0 40px;
+}
+    .conheca article{
+        width:256px;
+        margin:0 48px;
+        text-align:center;
+        color:#000;
+    }
+        .conheca a{
+            color:#ff651A;
+            text-decoration:underline;
+        }
+        .conheca img{width:170px;}
+        .conheca h4,
+        .conheca p:last-child{margin-top:16px;}
+
+        /*PRODUTO 1*/
+.produto-1{
+    background:#F4DCC3;
+    padding:40px 0 80px;
+    
+}
+    .produto-1 section,
+    .produto-2 section,
+    .produto-3 section{
+        display:flex;
+        align-items:center;
+    }
+    .produto-1 figure,
+    .produto-2 figure,
+    .produto-3 figure{
+        margin-right:48px;
+        width:528px;
+    }
+.produto-1 article{width:512px;}
+    .produto-1 h2,
+    .produto-2 h2,
+    .produto-3 h2{
+        font-size:40px;
+        line-height:55px;
+        color:#000;
+    }
+    .produto-1 p{margin-bottom:20px;}
+    .produto-1 h3,
+    .produto-2 h3,
+    .produto-3 h3{
+        font-size:24px;
+        font-weight:normal;
+        text-align: center;
+        color:#000;
+        margin:72px 0 72px;
+    }
+    .video1 iframe,
+    .video2 iframe,
+    .video3 iframe{
+        width:470px;
+        height:264px;
+        margin-right:48px;
+    }
+/*PRODUTO 2*/
+.produto-2{
+        background:#E8E7C1;
+        padding:40px 0 80px;
+    }
+    .produto-2 article{width:512px;}
+    .produto-2 p,
+    .produto-3 p{
+        margin-bottom:20px;
+    }
+/*PRODUTO 3*/
+.produto-3{
+        background:#F4DDD6;
+        padding:40px 0 80px;
+    }
+    .produto-3 article{width:512px;}
+    /*LINHA*/
+    .linha{
+        width:1136px;
+        height:79px;
+    }
+    /*BOLO*/
+    .bolo{
+        background:#fff;
+        padding:20px 0 80px;
+    }
+    .bolo section{
+        display:flex;
+        align-items:center;
+    }
+    .bolo article{width:512px;}
+    .bolo h2{
+        font-size:40px;
+        line-height:55px;
+        color:#000;
+        margin-bottom:20px;
+    }
+    .bolo img{
+        margin-left:105px;
+        width:516px;
+        height:382px;
+    }
+    /*FLORES*/
+    .flores{
+        width:1136px;
+        margin:0 auto;
+        display:flex;
+    }
+    .flores img{
+        width:256px;
+        height:168px;
+    }
+    .flores article{
+        margin-left:96px;
+    }
+    .flores h3{
+        width:200px;
+        height:48px;
+        margin-bottom:10px;
+    }
+    .preco p{
+        font-size:12px;
+        text-decoration:line-through;
+        font-weight:400;
+    }
+    .desconto p{
+        color:#662100;
+        font:bold 24px 'Open Sans', sans-serif;
+    }
+    .parcelas p{
+        font-family:'Open sans', sans-serif;
+        font-size:12px;
+        line-height:16.32px;
+        letter-spacing:4%;
+        padding-bottom:16px;
+    }
+    .flores button:hover{color:#fff; background:blueviolet;}
+    .flores button{
+        border-radius:6px;
+        cursor:pointer;
+        width:256px;
+        height:50px;
+        background:#FF8723;
+        text-transform:uppercase;
+        font:700 12px 'Open Sans', sans-serif; 
+        border:0;
+        margin-bottom:96px;
+    }
+   
+    .preco_desconto{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+    .off p{
+        text-transform:uppercase;
+        color:#fff;
+        font:700 12px 'Open Sans', sans-serif;
+        letter-spacing:4%;
+        line-height:16.32px;
+        padding:4px 8px;
+        background:#333 54px 24px;
+        border-radius:2px;
+    } 
+    .ultima{
+        margin:0 auto;
+    }
